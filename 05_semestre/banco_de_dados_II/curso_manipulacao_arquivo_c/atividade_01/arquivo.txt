@@ -1,0 +1,1 @@
+meu nome é João Victor e estou treinando manipulação de arquivo em C. Esse arquivo deve retornar tudo em maiúsculo após a minupulação.

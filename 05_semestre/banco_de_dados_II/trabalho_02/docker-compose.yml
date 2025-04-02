@@ -1,0 +1,14 @@
+version: '3.5'
+
+services: 
+    banco_postgres:
+        container_name: trabalho_banco_02
+        image: postgres:14
+        shm_size: '3gb'
+        environment:
+             POSTGRES_HOST_AUTH_METHOD: "trust"
+        ports: 
+            - 5432:5432
+        volumes:
+            - ./db_postgres:/var/lib/postgresql/data
+            - .:/banco_script

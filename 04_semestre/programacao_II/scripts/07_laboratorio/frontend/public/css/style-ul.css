@@ -1,0 +1,31 @@
+.Button{
+  list-style-type: none;
+  text-align: center;
+  margin-top: 20px;
+  display: grid;
+}
+
+.Button{
+  display: block;
+  margin-bottom: 10px;
+  max-width: 100%;
+}
+
+.Button{
+  text-decoration: none;
+  color: #00693e;
+  font-weight: bold;
+  display: block;
+  padding: 10px;
+  border: 1px solid #00693e;
+  border-radius: 5px;
+}
+
+.ButtonBasic{
+  background-color: #00693e;
+  color: white;
+}
+
+.ButtonBasic{
+  transition: background-color 0.3s, color 0.3s;
+}
